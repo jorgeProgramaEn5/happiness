@@ -30,8 +30,8 @@
 
 function KitchenSinkExample({ images, title }) {
   return (
-    <div className='card'>
-        <img src={ images } alt={title} />
+    <div className='card text-center'>
+          <img src={ images } alt={title} />
         <div className='card-body'>
             <h4 className='card-title'>{`Que dijo ${title}?`}</h4>
             <p className='card-text text-secondary'>
@@ -39,6 +39,9 @@ function KitchenSinkExample({ images, title }) {
                 Natus nulla commodi ae mollitia eligendi dicta consequuntur 
                 delectus, ut quas sequi soluta pariatur.
             </p>
+            <div class="d-grid gap-2 col-8 mx-auto">
+              <a href="#" class="btn btn-primary" type="button">Button</a>
+            </div>
         </div>
     </div>
   );

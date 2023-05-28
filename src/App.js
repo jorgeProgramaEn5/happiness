@@ -9,7 +9,7 @@ import Tarjeta from "./Components/Tarjeta";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="app container-fluid">
       <div className="row">
         <div className="col-md-12"><Navbar /></div>
       </div>
