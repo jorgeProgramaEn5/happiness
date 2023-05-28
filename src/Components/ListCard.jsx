@@ -6,9 +6,11 @@ import { Card } from "./index.js";
 
 const ListCard = () => {
   return (
-    <div>
+    <div className='row'>
         {card_data.map((card)=>(
-            <Card key={card.id} images={ card.img } title={card.title}/>
+          <div className='col-md-3' key={card.id}> 
+            <Card images={ card.img } title={card.title}/>
+          </div>
         ))}
     </div>
   )

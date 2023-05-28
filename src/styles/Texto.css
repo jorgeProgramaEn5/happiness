@@ -1,0 +1,10 @@
+.container__texto {
+    display: flex;
+    justify-content: center;
+}
+
+.container__texto > div:nth-child(1) {
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+}
