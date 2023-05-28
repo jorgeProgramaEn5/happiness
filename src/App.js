@@ -1,12 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Hero, Card } from "./Components";
+import { Navbar, Hero, ListCard } from "./Components";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./styles/App.css"
 import { banner, } from './Constant';
-import { socrates_500x450, pinker_500x450, haidt_500x450 } from './Assets';
+// import { socrates_500x450, pinker_500x450, haidt_500x450 } from './Assets';
 
 
 
@@ -20,9 +20,7 @@ function App() {
         <Col><Hero banners={ banner }/></Col>
       </Row>
       <Row>
-        <Col><Card images={ socrates_500x450 }/></Col>
-        <Col><Card images={ pinker_500x450 }/></Col>
-        <Col><Card images={ haidt_500x450 }/></Col>
+        <Col><ListCard /></Col>
       </Row>
     </Container>
   );

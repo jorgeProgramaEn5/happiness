@@ -25,31 +25,31 @@ export const banner = [
     },
   ];
 
-  export const imgCard = [
+  export const card_data = [
     {
       id: "0",
-      icon: socrates_500x450,
+      img: socrates_500x450,
       title: "Socrates",
       content:
         "The best credit cards offer some tantalizing combinations of promotions and prizes",
     },
     {
       id: "1",
-      icon: pinker_500x450,
+      img: pinker_500x450,
       title: "Steven Pinker",
       content:
         "We take proactive steps make sure your information and transactions are secure.",
     },
     {
       id: "2",
-      icon: haidt_500x450,
+      img: haidt_500x450,
       title: "Jonathan Haidt",
       content:
         "A balance transfer credit card can save you a lot of money in interest charges.",
     },
     {
       id: "3",
-      icon: aristoteles_500x450,
+      img: aristoteles_500x450,
       title: "Aristoteles",
       content:
         "A balance transfer credit card can save you a lot of money in interest charges.",
