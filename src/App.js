@@ -4,7 +4,7 @@ import { Navbar, Hero, ListCard, Texto } from "./Components";
 import "./styles/App.css"
 import { banner, } from './Constant';
 // import { socrates_500x450, pinker_500x450, haidt_500x450 } from './Assets';
-import Tarjeta from "./Components/Tarjeta";
+// import Tarjeta from "./Components/Tarjeta";
 
 
 function App() {
@@ -19,14 +19,8 @@ function App() {
       <div className="row">
         <div className="col"><Texto /></div>
       </div>
-      <div className="row">
+      <div className="row d-flex">
         <div className="col-md-12"><ListCard /></div>
-      </div>
-      <div className="row">
-        <div className="col-md-3"><Tarjeta /></div>
-        <div className="col-md-3"><Tarjeta /></div>
-        <div className="col-md-3"><Tarjeta /></div>
-        <div className="col-md-3"><Tarjeta /></div>
       </div>
     </div>
   );

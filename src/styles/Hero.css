@@ -17,6 +17,10 @@
     border-radius: 50%;
 }
 
+.carousel-caption h3 {
+    font-size: 1.1rem;
+}
+
 @media only screen and (min-width: 968px) {
     .m-imagen {
     width: 50%;

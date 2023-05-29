@@ -6,22 +6,19 @@ export const banner = [
       id: "banner-1",
       icon: baner_1,
       title: "baner",
-      content:
-        "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      content: "Siempre intenta estar feliz",
     },
     {
       id: "banner-2",
       icon: baner_2,
       title: "baner",
-      content:
-        "We take proactive steps make sure your information and transactions are secure.",
+      content: "Siempre intenta ser libre",
     },
     {
       id: "banner-3",
       icon: baner_3,
       title: "baner",
-      content:
-        "A balance transfer credit card can save you a lot of money in interest charges.",
+      content: "Siempre intenta sonreir",
     },
   ];
 
@@ -43,7 +40,7 @@ export const banner = [
     {
       id: "2",
       img: haidt_500x450,
-      title: "Jonathan Haidt",
+      title: "J. Haidt",
       content:
         "A balance transfer credit card can save you a lot of money in interest charges.",
     },
